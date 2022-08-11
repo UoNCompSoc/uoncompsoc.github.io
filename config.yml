@@ -1,0 +1,11 @@
+baseURL: 'https://uoncompsoc.co.uk'
+languageCode: 'en-us'
+title: 'CompSoc'
+
+enableRobotsTXT: true
+buildFuture: true
+
+params:
+  description: "CompSoc @ University of Nottingham"
+  author: "CompSoc Committee"
+  logoPath: "/img/logo.svg"

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<title>CompSoc - {{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<script type="text/javascript" src="{{ "js/index.js" | relURL }}"></script>
+
+	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+	<link rel="stylesheet" href="{{ "css/mobile.css" | relURL }}">
+</head>
+<body>
+	<div class="wrapper">
+		{{ partial "header" . }}
+		{{ block "main" . }}{{ end }}
+		{{ partial "footer" . }}
+	</div>
+</body>
+</html>
