@@ -1,11 +1,21 @@
-baseURL: 'https://uoncompsoc.co.uk'
+baseURL: 'http://hacksocnotts.co.uk/'
 languageCode: 'en-us'
-title: 'CompSoc'
+title: 'HackSoc'
 
 enableRobotsTXT: true
 buildFuture: true
 
 params:
-  description: "CompSoc @ University of Nottingham"
-  author: "CompSoc Committee"
+  description: "HackSoc Nottingham"
+  author: "HackSoc Committee"
   logoPath: "/img/logo.svg"
+
+outputs:
+  home:
+    - HTML
+  section:
+    - Calendar
+    - HTML
+    - JSON
+  page:
+    - HTML

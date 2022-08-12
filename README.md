@@ -1,2 +1,3 @@
-# uoncompsoc.github.io
-Website for UoN CompSoc
+# Website for UoN CompSoc
+
+Heavily inspired by https://hacksocnotts.co.uk/
